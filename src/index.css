@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.navbar{
+
+ height: 100px;
+}
+
+
+.footer{
+  background-color: #2C3E50;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  height: 300px;
+
+ }
+
+ .icon{
+  border: 1px white solid;
+  padding: 5px;
+  border-radius: 50%;
+ }
+
+ .about{
+  background-color: #1ABC9C;
+  position: relative;
+  height: 400px;
+ }
+ .home{
+  background-color: #1ABC9C;
+ 
+ }
+ .lines{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  
+ }
+
+ .line{
+  background-color: #2C3E50;
+  height: 4px;
+  width: 80px;
+  
+ }
+
+ .active{
+  background-color: #1ABC9C;
+  padding: 10px;
+  border-radius: 10px;
+ }
+
+ .about-p{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+ }
+
+ .home-img img{
+  width: 30%;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+ }
+
+ .contact{
+  color: #2b3d4f;
+ }
+
+  .style-input{
+  width: 50%;
+  /* background-color: brown; */
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+ align-content: center;
+ margin: auto;
+ margin-bottom: 20px;
+ border-bottom: 1px gray solid;
+ 
+
+ }
+
+ .btn{
+  background-color: #1ABC9C;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+ 
+ 
+ }
+.port-img{
+  position: relative;
+ 
+}
+.port-card img{
+  border-radius: 20px;
+}
+
+ .layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: #1abc9cd5;
+ opacity: 0;
+ transition: 0.5s;
+ 
+
+ }
+ .layer:hover{
+  opacity: 1;
+  
+ }
+ 
+.not-found{
+  height: 300px;
+}
